@@ -1,9 +1,9 @@
-:root{
-    --branco-principal: #FFFFFF;
+:root {
+    --branco-principal: #ffffff;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c
-    --fonte-principal: "inter"
+    --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
 }
 
 * {
@@ -57,11 +57,31 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
- 
+
 .container_imagem {
-      margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;
 }
 
 .container_caixa {
     margin: 0 6em;
+}
+
+.imagem_secundario {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 46px;
+    color: var(--branco-principal);
+    margin: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
 }
